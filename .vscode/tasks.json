@@ -12,6 +12,43 @@
       "problemMatcher": [],
       "label": "npm: install - website",
       "detail": "install dependencies from package"
+    },
+    {
+      "type": "docker-build",
+      "label": "docker-build",
+      "platform": "node",
+      "dockerBuild": {
+        "dockerfile": "${workspaceFolder}/bot/Dockerfile",
+        "context": "${workspaceFolder}/bot",
+        "pull": true
+      },
+      "node": {
+        "package": "${workspaceFolder}/bot/package.json"
+      }
+    },
+    {
+      "type": "docker-run",
+      "label": "docker-run: release",
+      "dependsOn": ["docker-build"],
+      "platform": "node",
+      "node": {
+        "package": "${workspaceFolder}/bot/package.json"
+      }
+    },
+    {
+      "type": "docker-run",
+      "label": "docker-run: debug",
+      "dependsOn": ["docker-build"],
+      "dockerRun": {
+        "env": {
+          "DEBUG": "*",
+          "NODE_ENV": "development"
+        }
+      },
+      "node": {
+        "package": "${workspaceFolder}/bot/package.json",
+        "enableDebugging": true
+      }
     }
   ]
 }
