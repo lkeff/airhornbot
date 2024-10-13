@@ -33,5 +33,9 @@
       "database": "discord.gg",
       "username": "newthartmark@yahoo.com"
     }
-  ]
+  ],
+  "compile-hero.disable-compile-files-on-did-save-code": false,
+  "yaml.schemas": {
+    "https://json.schemastore.org/github-workflow.json": "file:///c%3A/Users/Administrator/Documents/GitHub/airhornbot/.github/workflows/bot-ci.yaml"
+  }
 }
