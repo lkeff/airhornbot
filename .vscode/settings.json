@@ -33,5 +33,6 @@
       "database": "discord.gg",
       "username": "newthartmark@yahoo.com"
     }
-  ]
+  ],
+  "compile-hero.disable-compile-files-on-did-save-code": false
 }
