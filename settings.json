@@ -1,0 +1,23 @@
+{
+  "user": {
+    "inherited": {},
+    "locales": [],
+    "languageIdsEnabled": []
+  },
+  "workspace": {
+    "inherited": {
+      "locales": "user",
+      "languageIdsEnabled": "user"
+    },
+    "locales": [],
+    "languageIdsEnabled": []
+  },
+  "folder": {
+    "inherited": {
+      "locales": "user",
+      "languageIdsEnabled": "user"
+    },
+    "locales": [],
+    "languageIdsEnabled": []
+  }
+}
