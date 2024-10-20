@@ -7,7 +7,7 @@
     "args": [],
     "env": {
       "ASPNETCORE_ENVIRONMENT": "Development"
-    }
+    }npm run
   }
   ]
 }
