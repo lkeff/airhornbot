@@ -1,13 +1,13 @@
 {
   "configurations": [
-  {
-    "type": "DotNetAutoAttach",
-    "request": "launch",
-    "name": ".NET Core Watch",
-    "args": [],
-    "env": {
-      "ASPNETCORE_ENVIRONMENT": "Development"
-    }npm run
-  }
+    {
+      "type": "DotNetAutoAttach",
+      "request": "launch",
+      "name": ".NET Core Watch",
+      "args": [],
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
   ]
 }
