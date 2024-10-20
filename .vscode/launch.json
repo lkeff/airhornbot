@@ -1,0 +1,13 @@
+{
+  "configurations": [
+    {
+      "type": "DotNetWatch",
+      "request": "launch",
+      "name": ".NET Core Watch",
+      "args": [],
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  ]
+}
