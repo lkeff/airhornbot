@@ -1,10 +1,10 @@
 {
-  "name": "airhornbot-website",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "author": "Discord",
-  "license": "MIT",
+  "name": "discord",
+  "version": "latest",
+  "description": "update",
+  "main": "yarn init",
+  "author": "lkeff",
+  "license": "no",
   "private": true,
   "scripts": {
     "build": "webpack --mode production",
@@ -39,6 +39,7 @@
     "numeral": "^2.0.6",
     "parallax-js": "^3.1.0",
     "prettier": "^2.8.4",
+    "prisma": "^5.21.1",
     "query-string": "^8.1.0",
     "react-tooltip": "^5.10.5",
     "style-loader": "^3.3.2",
@@ -54,8 +55,11 @@
     "wrangler": "^3.1.1"
   },
   "dependencies": {
+    "@prisma/client": "^5.21.1",
+    "discord-api-types": "^0.37.103",
     "dotenv": "^16.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  }
+  },
+  "repository": "https://github.com/lkeff/airhornbot/tree/default"
 }
