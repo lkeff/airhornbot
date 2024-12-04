@@ -70,7 +70,7 @@
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
   "files.exclude": {
     "**/*.rpyc": true,
