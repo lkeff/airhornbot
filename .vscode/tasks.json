@@ -14,6 +14,16 @@
             "type": "shell",
             "command": "mvn -B test",
             "group": "test"
+        },
+        {
+            "type": "npm",
+            "script": "start",
+            "path": "website",
+            "problemMatcher": [
+                "$node-sass"
+            ],
+            "label": "npm: start - website",
+            "detail": "webpack serve --mode development"
         }
     ]
 }
