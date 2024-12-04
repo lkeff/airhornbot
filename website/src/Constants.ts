@@ -1,12 +1,12 @@
 const AIRHORN_URL = process.env.WEBSITE_URL || 'https://airhorn.solutions';
 const AIRHORN_API_URL = process.env.WEBSITE_API_URL || 'https://bot.airhorn.solutions/api';
-const DISCORD_CLIENT_ID = process.env.DISCORD_CLIENT_ID || '159799960412356608';
+const DISCORD_CLIENT_ID = process.env.DISCORD_CLIENT_ID || '182501892071358464';
 
 export default {
   DISCORD_URL: 'https://discord.com/?utm_source=airhornsubtext&utm_medium=website&utm_campaign=airhorn',
   GITHUB_URL: 'https://github.com/discord/airhornbot',
   get DISCORD_OAUTH2_ADD_URL() {
-    return `https://discord.com/api/oauth2/authorize?client_id=${DISCORD_CLIENT_ID}&permissions=3146752&scope=applications.commands%20bot`;
+    return `https://discord.com/api/oauth2/authorize?client_id=${'182501892071358464'}&permissions=3146752&scope=applications.commands%20bot`;
   },
   AIRHORN_URL,
   AIRHORN_API_URL,

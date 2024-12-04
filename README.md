@@ -34,6 +34,7 @@ cd bot
 npm install
 cp .env.example .env
 # Edit the .env file to have the correct values for your setup
+npm install api-discord-types
 npx prisma generate
 npm run build
 npx prisma migrate deploy
