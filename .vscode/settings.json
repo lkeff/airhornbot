@@ -78,5 +78,8 @@
     "**/*.rpymc": true,
     "**/cache/": true
   },
-  "iis.configDir": ""
+  "iis.configDir": "",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  }
 }
