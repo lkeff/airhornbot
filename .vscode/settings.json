@@ -70,7 +70,7 @@
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
   },
   "files.exclude": {
     "**/*.rpyc": true,
@@ -83,7 +83,7 @@
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
   },
   "compile-hero.disable-compile-files-on-did-save-code": false
 }
