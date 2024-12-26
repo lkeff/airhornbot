@@ -97,4 +97,5 @@
   "npm_config_ignore_optional": "",
   "npm_config_registry": "https://registry.yarnpkg.com",
   "npm_config_strict_ssl": "true",
-  "npm_config_user_agent": "yarn/1.22.22 npm/? node/v22.9.0 win32 x64"
+  "npm_config_user_agent": "yarn/1.22.22 npm/? node/v22.9.0 win32 x64",
+  
