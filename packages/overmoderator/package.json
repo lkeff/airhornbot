@@ -1,9 +1,15 @@
 {
   "name": "overmoderator",
   "version": "1.0.0",
+  "description": "✨💎 TACKY BOT 3000 💎✨ — The most garish Discord bot you never asked for",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "jest"
+  },
+  "dependencies": {
+    "discord.js": "^14.0.0",
+    "dotenv": "^16.0.0"
   },
   "devDependencies": {
     "jest": "^27.0.0"
