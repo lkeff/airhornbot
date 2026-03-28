@@ -1,0 +1,31 @@
+version: '3.9'
+
+services:
+  airhornbot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: airhornbot
+    image: airhornbot:latest
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      NODE_ENV: production
+    networks:
+      - bot-network
+    healthcheck:
+      test: ["CMD-SHELL", "pgrep -f 'node index.js' || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+networks:
+  bot-network:
+    driver: bridge
